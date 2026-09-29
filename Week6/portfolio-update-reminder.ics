@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FlyRank AI Fluency//Portfolio Cadence Reminder//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:portfolio-cadence-a17-bharadwaj@flyrank.ai
+DTSTAMP:20260929T180000Z
+DTSTART:20261005T090000Z
+DTEND:20261005T093000Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=MO
+SUMMARY:🚀 [Portfolio Cadence] Draft Case Study: Backend Assignment A17 (Put an LLM Behind Your API)
+DESCRIPTION:Automated trigger to prevent portfolio stagnation.\n\nAction items (15-min protocol):\n1. Open Claude Project with saved voice card: 'plain, specific, first-person, no buzzwords'.\n2. Feed git commit log & README from Assignment A17 repo.\n3. Extract the 3 beats: Problem, What I Did & Decided, What Came of It.\n4. Append framed case to Week2/Portfolio-Framed-Cases.md and update /systems on portfolio-sitemap.\n\nLive Repo: https://github.com/BharadwajMittapelli/flyrank-ai-fluency
+LOCATION:Local Workspace / GitHub
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to frame Backend Assignment A17 into your portfolio!
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
